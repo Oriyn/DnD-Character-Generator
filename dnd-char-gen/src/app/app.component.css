@@ -1,0 +1,11 @@
+Header{
+    text-align: center;
+}
+body p {
+   font-weight: bold;
+   text-align: center;
+}
+fieldset{
+    border: none;
+    text-align: center;
+}
