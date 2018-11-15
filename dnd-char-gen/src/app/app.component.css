@@ -1,11 +1,17 @@
 Header{
     text-align: center;
 }
+body{
+    background-color: gray; 
+}
 body p {
    font-weight: bold;
    text-align: center;
 }
 fieldset{
     border: none;
+    text-align: center;
+}
+div{
     text-align: center;
 }
