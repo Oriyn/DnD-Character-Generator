@@ -5,6 +5,11 @@ import { ADND2ndEdComponent } from './adnd2nd-ed/adnd2nd-ed.component';
 
 const routes: Routes = [
   {
+    path: '',
+    component: AppComponent
+  },
+  
+  {
     path: 'ADND2ndEd',
     component: ADND2ndEdComponent
   }

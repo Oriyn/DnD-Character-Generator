@@ -6,24 +6,23 @@
     <div><input id="charName" name="cName" placeholder="Character Name"></div>
  <p>Choose your realm for the birth of your Character:</p>
   <fieldset>
-      <legend> Edition </legend>
-      <select class="bookedition">
-        <option id="D1">Labrinth Lord</option>
-        <option id="D2">1st edition</option>
-        <option id="D3">Advanced DnD</option>
-        <option id="D4">Advanced DnD 2nd edition</option>
-        <option id="D5">3rd Edition</option>
-        <option id="D6">DnD 3.5</option>
-        <option id="D7">4th edition</option>
-        <option id="D8">5th edition</option>
-      </select>
+   <legend> Edition: </legend>
+     <div>
+      <ul>
+       <li><a>Labrynth Lord</a></li>
+       <li><a>Advanced DnD</a></li>
+       <li><a routerLink="ADND2ndEd">Advanced DnD 2nd Edition</a></li>
+       <li><a>DnD 3.5</a></li>
+       <li><a>4th Edition</a></li>
+       <li><a>5th Edition</a></li>
+       <router-outlet></router-outlet>
+      </ul>
+     </div>   
    </fieldset>
-   <div><input type="submit" value="Click" id="submitButton" (click)="loadTest()"></div>
    <footer>
-      <div>
-        <p></p>
+      <div>     
       </div>
    </footer>
 </body>
 
-<router-outlet></router-outlet>
+
