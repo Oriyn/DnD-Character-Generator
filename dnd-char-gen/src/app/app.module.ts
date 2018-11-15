@@ -8,6 +8,7 @@ import { LabrynthLordComponent } from './labrynth-lord/labrynth-lord.component';
 import { ADNDComponent } from './adnd/adnd.component';
 import { FourthEditionComponent } from './fourth-edition/fourth-edition.component';
 import { FifthEditionComponent } from './fifth-edition/fifth-edition.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FifthEditionComponent } from './fifth-edition/fifth-edition.component';
     LabrynthLordComponent,
     ADNDComponent,
     FourthEditionComponent, 
-    FifthEditionComponent
+    FifthEditionComponent, 
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -6,12 +6,12 @@ import { LabrynthLordComponent } from './labrynth-lord/labrynth-lord.component';
 import { ADNDComponent } from './adnd/adnd.component';
 import { FourthEditionComponent } from './fourth-edition/fourth-edition.component';
 import { FifthEditionComponent } from './fifth-edition/fifth-edition.component';
-
+import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: AppComponent
+    component: HomeComponent
   },
   {
     path: 'LabLord',
