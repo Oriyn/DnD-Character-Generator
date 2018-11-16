@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ADND2ndEdComponent implements OnInit {
 
+  number :number = 1
   constructor() { }
 
   ngOnInit() {
