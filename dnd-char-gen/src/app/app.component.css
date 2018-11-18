@@ -1,3 +1,14 @@
 Header{
     text-align: center;
 }
+footer {
+clear: all;
+float: left;
+width:100%;
+}
+footer a{
+    color: white;
+}
+footer a:active{
+    color: red;
+}

@@ -4,6 +4,7 @@ Header{
 p {
    font-weight: bold;
    text-align: center;
+   color: white;
 }
 fieldset{
     border: none;
@@ -26,6 +27,6 @@ a:hover{
     color:red;
 }
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
