@@ -6,7 +6,7 @@ import { LabrynthLordComponent } from './labrynth-lord/labrynth-lord.component';
 import { ADNDComponent } from './adnd/adnd.component';
 import { FourthEditionComponent } from './fourth-edition/fourth-edition.component';
 import { FifthEditionComponent } from './fifth-edition/fifth-edition.component';
-import {HomeComponent} from './home/home.component';
+import { HomeComponent } from './home/home.component';
 import { ThreePointFiveEditionComponent } from './three-point-five-edition/three-point-five-edition.component';
 import { ThirdEditionComponent } from './third-edition/third-edition.component';
 
