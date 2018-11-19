@@ -8,7 +8,14 @@ width:100%;
 }
 footer a{
     color: white;
+    font-family:  'Playfair Display SC', 'Franklin Gothic Medium', 'sans-serif';
+}
+footer a:hover{
+    color: red;
+    text-shadow: 0 0 10px;
 }
 footer a:active{
-    color: red;
+    position: relative;
+	left: 1px;
+	top: 1px;
 }

@@ -16,8 +16,8 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'LabLord',
-    component: LabrynthLordComponent
+    path: 'Home',
+    component: HomeComponent
   },
   {
     path: 'ADND',

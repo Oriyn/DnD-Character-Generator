@@ -1,19 +1,41 @@
 .race:hover{
     color: red;
     cursor: pointer;
+    text-shadow: 0 0 5px;
+}
+ .race:active{
+	position: relative;
+	left: 1px;
+	top: 1px;
 }
 ul{
     list-style-type: none;
     margin:0;
     padding:0;
     text-align: center;
-    list-style:none;             
+    list-style:none;       
+    color: white;      
+}
+legend{
+    font-family:  'Playfair Display SC', 'Franklin Gothic Medium', 'sans-serif';
+    color: white;
+    text-shadow: 0 0 15px green;
+    font-weight: bold;
+}
+li a{
+    font-family:  'Playfair Display SC', 'Franklin Gothic Medium', 'sans-serif';
+    text-shadow: 0 0 15px green;
+    font-weight: bold;
 }
 p{
+    font-family:  'Playfair Display SC', 'Franklin Gothic Medium', 'sans-serif';
     text-align: center;
+    color: white;
+    text-shadow: 0 0 15px green;
+    font-weight: bold;
 }
 fieldset{
-    border: 1px solid black;
+    border: 4px solid black;
     margin: 0px auto;
     width: 200px;
     text-align: center;
