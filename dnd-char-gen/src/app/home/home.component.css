@@ -6,6 +6,7 @@ p {
    text-align: center;
    color: white;
    font-family:  'Playfair Display SC', 'Franklin Gothic Medium', 'sans-serif';
+   text-shadow: 0 0 15px green;
 }
 fieldset{
     border: none;
@@ -37,4 +38,12 @@ a:active{
 a {
     color: white;
     text-decoration: none;
+    text-shadow: 0 0 15px green;
+}
+legend{
+        font-family:  'Playfair Display SC', 'Franklin Gothic Medium', 'sans-serif';
+        color: white;
+        text-shadow: 0 0 15px green;
+        font-weight: bold;
+    
 }

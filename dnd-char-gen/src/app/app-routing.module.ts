@@ -20,6 +20,10 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: 'LabLord',
+    component: LabrynthLordComponent
+  },
+  {
     path: 'ADND',
     component: ADNDComponent
   },

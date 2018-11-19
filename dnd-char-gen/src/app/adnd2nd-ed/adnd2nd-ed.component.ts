@@ -13,24 +13,45 @@ export class ADND2ndEdComponent implements OnInit {
   intellegence :number = 0
   wisdom :number = 0
   charisma :number = 0
+  clicks :number =0
 
   constructor() { }
 
   dwarfAdj(){
+    if(this.clicks <= 0 )
+    {
     this.constitution  += 1
     this.charisma -= 1
+    this.clicks += 1
+    }
+    else{ return }
   }
   elfAdj(){
+    if(this.clicks <= 0)
+    {
     this.dexeterity  += 1
     this.constitution -= 1
+    this.clicks += 1
+    }
+    else{ return }
   }
   gnomeAdj(){
+    if(this.clicks <= 0)
+    {
     this.intellegence  += 1
     this.wisdom -= 1
+    this.clicks += 1
+    }
+    else{ return }
   }
   halfAdj(){
+    if(this.clicks <=0)
+    {
     this.dexeterity  += 1
     this.strength -= 1
+    this.clicks += 1
+    }
+    else{ return }
   }
   
   ngOnInit() {
