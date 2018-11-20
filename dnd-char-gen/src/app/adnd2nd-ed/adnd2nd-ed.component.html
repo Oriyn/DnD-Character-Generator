@@ -1,6 +1,6 @@
 <p>Races That Require Stat Adjustments (click on your race): </p>
-<div class="raceAdj">
-   <fieldset>
+<div>
+   <fieldset class="raceAdj">
     <ul>
      <li class="race"><a (click)="dwarfAdj()">Dwarf </a></li>
      <li class="race"><a (click)="elfAdj()">Elf</a></li>
@@ -9,8 +9,9 @@
     </ul>
     </fieldset>
 </div>   
-<div class="playerStats">
-<fieldset>
+<table class="playerStats">
+  <td>
+<fieldset class="charStatistics">
   <legend> Player Statistics: </legend>
     <ul>
      <li><a>Strength: {{strength}} </a></li>
@@ -21,4 +22,18 @@
      <li><a>Charisma: {{charisma}} </a></li>
     </ul>   
 </fieldset>
-</div>
+  </td>
+<td>
+<fieldset class="armorHealth">
+  <legend> Player Statistics: </legend>
+    <ul>
+     <li><a>Strength: {{strength}} </a></li>
+     <li><a>Dexeterity: {{dexeterity}} </a></li>
+     <li><a>Constitution: {{constitution}} </a></li>
+     <li><a>intellegence: {{intellegence}} </a></li>
+     <li><a>Wisdom: {{wisdom}} </a></li>
+     <li><a>Charisma: {{charisma}} </a></li>
+    </ul>   
+</fieldset>
+</td>
+</table>
